@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistemas Operacionais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="progressBar"></div>
+
+<div class="sidebar">
+  <h2>Sistemas</h2>
+  <a href="#inicio">Início</a>
+  <a href="#ios">iOS</a>
+  <a href="#android">Android</a>
+  <a href="#linux">Linux</a>
+  <a href="#windows">Windows</a>
+  <a href="#comparacao">Comparação</a>
+  <a href="#quiz">Quiz</a>
+</div>
+
+<div class="content">
+
+<section id="inicio">
+  <h1>Sistemas Operacionais</h1>
+
+  <p>
+    Um sistema operacional é o software responsável por gerenciar todo o hardware de um dispositivo e permitir que o usuário execute programas.
+    Ele atua como intermediário entre o usuário e a máquina.
+  </p>
+
+  <p>
+    Sem um sistema operacional, computadores e celulares não conseguiriam funcionar corretamente, pois não haveria controle de memória, processamento ou execução de aplicativos.
+  </p>
+
+  <h3>Funções principais</h3>
+  <ul>
+    <li>Gerenciar memória e CPU</li>
+    <li>Executar aplicativos</li>
+    <li>Controlar dispositivos</li>
+    <li>Garantir segurança</li>
+  </ul>
+</section>
+
+<section id="ios">
+  <h1><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" class="logo"> iOS</h1>
+
+  <p>
+    O iOS é o sistema operacional da Apple, utilizado em iPhones e iPads. Ele é conhecido por sua alta segurança e desempenho otimizado.
+  </p>
+
+  <p>
+    Criado em 2007, revolucionou o mercado ao introduzir telas totalmente sensíveis ao toque e um sistema altamente integrado ao hardware Apple.
+  </p>
+
+  <p>
+    Seu sistema fechado garante maior controle de qualidade e segurança dos aplicativos disponíveis na App Store.
+  </p>
+</section>
+
+<section id="android">
+  <h1><img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" class="logo"> Android</h1>
+
+  <p>
+    O Android é um sistema baseado no Linux desenvolvido pelo Google e utilizado por diversas fabricantes como Samsung, Xiaomi e Motorola.
+  </p>
+
+  <p>
+    Ele é o sistema mais popular do mundo devido à sua flexibilidade e grande variedade de dispositivos.
+  </p>
+
+  <p>
+    Por ser open-source, permite personalização profunda por fabricantes e usuários avançados.
+  </p>
+</section>
+
+<section id="linux">
+  <h1><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" class="logo"> Linux</h1>
+
+  <p>
+    O Linux é um sistema open-source criado por Linus Torvalds em 1991, muito usado em servidores e sistemas corporativos.
+  </p>
+
+  <p>
+    Ele é extremamente seguro, estável e gratuito, sendo a base de grande parte da internet moderna.
+  </p>
+</section>
+
+<section id="windows">
+  <h1><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg" class="logo"> Windows</h1>
+
+  <p>
+    O Windows é o sistema operacional mais usado em computadores pessoais, desenvolvido pela Microsoft.
+  </p>
+
+  <p>
+    Ele é amplamente utilizado em jogos, empresas e escolas devido à sua facilidade de uso e compatibilidade.
+  </p>
+</section>
+
+<section id="comparacao">
+  <h1>Comparação</h1>
+
+  <table>
+    <tr>
+      <th>Sistema</th>
+      <th>Segurança</th>
+      <th>Uso</th>
+    </tr>
+    <tr><td>iOS</td><td>★★★★★</td><td>Mobile</td></tr>
+    <tr><td>Android</td><td>★★★☆☆</td><td>Mobile</td></tr>
+    <tr><td>Linux</td><td>★★★★★</td><td>Servidores</td></tr>
+    <tr><td>Windows</td><td>★★★☆☆</td><td>PC</td></tr>
+  </table>
+</section>
+
+<section id="quiz">
+  <h1>Quiz (10 perguntas)</h1>
+
+  <div class="quiz-box" id="quizBox"></div>
+
+  <br>
+  <button onclick="mostrarResultado()">Ver Resultado</button>
+  <h2 id="resultadoQuiz"></h2>
+</section>
+
+</div>
+
+<button id="topButton" onclick="voltarTopo()">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
